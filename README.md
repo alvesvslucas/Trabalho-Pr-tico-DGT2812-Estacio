@@ -34,7 +34,7 @@ Este aplicativo foi desenvolvido para uma agencia de viagens ficticia que deseja
 ## Estrutura do Projeto
 
 ```
-flutter_travel_app/
+Trabalho-Pr-tico-DGT2812-Estacio/
 ├── lib/
 │   └── main.dart              # Codigo principal do aplicativo
 ├── images/
@@ -48,8 +48,8 @@ flutter_travel_app/
 
 ### Pre-requisitos
 
-- Flutter SDK instalado (versao 3.0.0 ou superior)
-- Dart SDK
+- Flutter SDK com Dart compativel com `>=3.0.0 <4.0.0`, conforme `pubspec.yaml`
+- As dependencias tambem precisam ser compativeis com o SDK escolhido
 - Editor de codigo (VS Code, Android Studio, etc.)
 - Navegador Chrome (para execucao web)
 
@@ -57,8 +57,8 @@ flutter_travel_app/
 
 1. **Clone o repositorio:**
 ```bash
-git clone https://github.com/seu-usuario/flutter_travel_app.git
-cd flutter_travel_app
+git clone https://github.com/alvesvslucas/Trabalho-Pr-tico-DGT2812-Estacio.git
+cd Trabalho-Pr-tico-DGT2812-Estacio
 ```
 
 2. **Instale as dependencias:**
@@ -70,6 +70,8 @@ flutter pub get
 ```bash
 flutter run -d chrome
 ```
+
+Os comandos devem ser executados na raiz, onde esta `pubspec.yaml`. Telefonia, mapas e compartilhamento dependem dos recursos e aplicativos disponiveis em cada plataforma; valide tambem em dispositivo compativel. Instalacao, build e execucao nao foram realizados nesta revisao documental.
 
 ## Interface do Aplicativo
 
